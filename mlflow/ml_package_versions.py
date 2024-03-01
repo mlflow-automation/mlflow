@@ -237,11 +237,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "4.25.1",
-            "maximum": "4.37.2"
+            "maximum": "4.38.2"
         },
         "autologging": {
             "minimum": "4.25.1",
-            "maximum": "4.37.2"
+            "maximum": "4.38.2"
         }
     },
     "openai": {
@@ -272,7 +272,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.2.2",
-            "maximum": "2.4.0"
+            "maximum": "2.5.1"
         }
     },
     "johnsnowlabs": {
