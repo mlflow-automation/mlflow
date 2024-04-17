@@ -148,11 +148,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.11.1",
-            "maximum": "0.14.1"
+            "maximum": "0.14.2"
         },
         "autologging": {
             "minimum": "0.11.1",
-            "maximum": "0.14.1"
+            "maximum": "0.14.2"
         }
     },
     "spark": {
@@ -250,7 +250,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.27.2",
-            "maximum": "1.19.0"
+            "maximum": "1.20.0"
         }
     },
     "langchain": {
@@ -290,7 +290,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.3.0",
-            "maximum": "1.8.0"
+            "maximum": "1.9.0"
         }
     }
 }
