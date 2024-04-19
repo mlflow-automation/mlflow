@@ -95,7 +95,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.0.0",
-            "maximum": "1.2.3"
+            "maximum": "1.2.5"
         }
     },
     "gluon": {
@@ -148,11 +148,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.11.1",
-            "maximum": "0.14.1"
+            "maximum": "0.14.2"
         },
         "autologging": {
             "minimum": "0.11.1",
-            "maximum": "0.14.1"
+            "maximum": "0.14.2"
         }
     },
     "spark": {
@@ -237,11 +237,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "4.25.1",
-            "maximum": "4.39.3"
+            "maximum": "4.40.0"
         },
         "autologging": {
             "minimum": "4.25.1",
-            "maximum": "4.39.3"
+            "maximum": "4.40.0"
         }
     },
     "openai": {
@@ -250,7 +250,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.27.2",
-            "maximum": "1.19.0"
+            "maximum": "1.23.1"
         }
     },
     "langchain": {
@@ -272,7 +272,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.2.2",
-            "maximum": "2.6.1"
+            "maximum": "2.7.0"
         }
     },
     "johnsnowlabs": {
@@ -290,7 +290,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.3.0",
-            "maximum": "1.8.0"
+            "maximum": "1.9.0"
         }
     }
 }
