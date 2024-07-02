@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 2.14.2 (2024-07-02)
+
+MLflow 2.14.2 includes several major features and improvements
+
+Features:
+
+- [] Add tracing to OpenAI autologging (#12267, @gabrielfu)
+
+Bug fixes:
+
+- [Tracking] [MLflow] Fixing databricks dependency detection to not include same dependency (#12493, @sunishsheth2009)
+- [Tracking] Isolate tracer provider from OpenTelemetry global state (#12457, @B-Step62)
+- [Build] Fix pytest error when running tests against mlflow/data/ (#12431, @xq-yin)
+- [Tracking] Upgrade protobuf generation code and add a new `generate_protos.py` script (#12360, @WeichenXu123)
+
+Documentation updates:
+
+- [Docs] Remove the API docs warnings for tracing (#12441, @BenWilson2)
+- [Docs / Examples] Fix the transformer model saving example in mlflow public doc (#12417, @dannikay)
+
+Small bug fixes and documentation updates:
+
+#12529, #12528, #12527, #12526, #12524, #12531, #12523, #12525, #12522, @dbczumar; #12535, #12320, #12285, #12444, @B-Step62; #12519, #12515, #12507, #12508, #12502, #12499, #12497, #12471, #12447, #12467, #12426, #12448, #12430, #12432, #12420, #12415, #12409, @harupy; #12483, #12463, @jsuchome; #12473, #12506, #12485, #12477, #12468, #12464, #12443, @WeichenXu123; #12479, #12472, #12433, @xq-yin; #12486, #12474, #11406, @jgiannuzzi; #12465, @BenWilson2; #12460, @Venki1402; #12450, @StarryZhang-whu; #12449, @yukimori; #12318, @RistoAle97; #12428, @daniellok-db; #12440, @victolee0; #12416, @Dev-98
+
 ## 2.14.1 (2024-06-20)
 
 MLflow 2.14.1 is a patch release that contains several bug fixes and documentation improvements
