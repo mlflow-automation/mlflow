@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2.15.2 (2024-08-09)
+
+MLflow 2.15.2 includes several major features and improvements
+
+Bug fixes:
+
+- [Tracking] Catch NVML error when collecting GPU metrics (#12903, @chenmoneygithub)
+- [Deployments / Server-infra] Improve gateway schema support for OpenAI provider (#12781, @danilopeixoto)
+- [] Fix deletion of artifacts when downloading from a non-standard DBFS location during UC model registration (#12821, @smurching)
+- [Tracking] Add `**kwargs` to the new span handler in the LlamaIndex Tracer (#12890, @B-Step62)
+
+Small bug fixes and documentation updates:
+
+#12907, #12897, @harupy; #12903, @chenmoneygithub; #12905, @Atry; #12898, @daniellok-db; #12893, @serena-ruan; #12884, @WeichenXu123; #12889, @B-Step62
+
 ## 2.15.1 (2024-08-06)
 
 MLflow 2.15.1 is a patch release that addresses several bug fixes.
