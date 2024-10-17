@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## 2.17.1 (2024-10-17)
+
+MLflow 2.17.1 includes several major features and improvements
+
+Features:
+
+- [UI] Update trace UI bundles (#13357, @daniellok-db)
+- [Tracking] Make DSPy wrapper compatible with single string output (#13345, @chenmoneygithub)
+- [Tracking] Adding resources to be passed in via langchain log_model (#13315, @sunishsheth2009)
+- [UI] Allow visualizing and comparing nested params (#13012, @jescalada)
+- [Tracking] LlamaIndex workflow logging (#13277, @B-Step62)
+- [UI] Add Artifact support for Compare Run page (#13145, @jescalada)
+- [] Standardize retriever span outputs to a list of MLflow `Document`s (#13242, @daniellok-db)
+- [Models] Add dspy flavor to MLflow (#13131, @chenmoneygithub)
+- [Tracking] [MLflow] Support multiple retrievers schema via set_retriever_schema (#13246, @sunishsheth2009)
+
+Bug fixes:
+
+- [Tracking] Update to throw a warning instead of error when set_retriever_schema is called twice (#13422, @sunishsheth2009)
+- [] Support dependency extraction from RunnableCallables (#13423, @aravind-segu)
+- [Tracking] Fix presigned_url_artifact request (#13366, @WeichenXu123)
+- [Tracking] Fix mlflow DSPy tests (#13369, @chenmoneygithub)
+- [Tracking] Mark `role` and `index` as required for chat schema (#13279, @chenmoneygithub)
+- [Models] Update Databricks dependency extraction to handle the partner package. (#13266, @B-Step62)
+
+Documentation updates:
+
+- [] Update docs and infer_signature (#13407, @serena-ruan)
+- [Docs] Add contribution guide for tracing (#13333, @B-Step62)
+- [Tracking] Add run_id parameter to the search_trace API (#13251, @B-Step62)
+
+Small bug fixes and documentation updates:
+
+#13417, #13445, #13430, #13448, #13446, #13443, #13429, #13418, #13412, #13382, #13402, #13381, #13372, #13364, #13356, #13309, #13313, #13334, #13331, #13273, #13322, #13319, #13308, #13302, #13268, #13298, #13293, #13296, @harupy; #13450, #13360, #13416, #13415, #13336, #13305, #13271, #13243, @B-Step62; #13410, #13358, #13233, @nojaf; #13414, @lmoros-DB; #13408, #13295, @serena-ruan; #13399, @Abubakar17; #13390, @KekmaTime; #13349, #13351, #13350, #13342, #13341, @WeichenXu123; #13203, @shichengzhou-db; #13335, #13285, #13292, #13282, #13283, #13267, @daniellok-db; #13291, @michael-berk; #12511, @jgiannuzzi; #13265, @Ahar28; #13260, @BenWilson2
+
 ## 2.17.0 (2024-09-26)
 
 We are excited to announce the release of MLflow 2.17.0! This release includes several enhancements to extend the
