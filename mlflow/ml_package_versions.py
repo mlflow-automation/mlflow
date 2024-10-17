@@ -269,7 +269,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.5.6",
-            "maximum": "2.5.6"
+            "maximum": "2.5.12"
         }
     },
     "langchain": {
@@ -292,11 +292,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.10.44",
-            "maximum": "0.11.17"
+            "maximum": "0.11.18"
         },
         "autologging": {
             "minimum": "0.10.44",
-            "maximum": "0.11.17"
+            "maximum": "0.11.18"
         }
     },
     "autogen": {
