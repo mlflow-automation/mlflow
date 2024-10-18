@@ -38,7 +38,7 @@ pytorch:
 
   models:
     minimum: "1.9.0"
-    maximum: "2.4.1"
+    maximum: "2.5.0"
     requirements:
       ">= 0.0.0": ["torchvision", "scikit-learn"]
       ">= 1.8": ["transformers"]
@@ -47,7 +47,7 @@ pytorch:
 
   autologging:
     minimum: "1.9.0"
-    maximum: "2.4.1"
+    maximum: "2.5.0"
     requirements:
       ">= 0.0.0": ["tensorboard"]
     run: |
@@ -633,7 +633,7 @@ openai:
       pip install git+https://github.com/openai/openai-python
   models:
     minimum: "1.0.1"
-    maximum: "1.51.2"
+    maximum: "1.52.0"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -648,7 +648,7 @@ openai:
       pytest tests/openai --ignore tests/openai/test_openai_autolog.py
   autologging:
     minimum: "1.17.0"
-    maximum: "1.51.2"
+    maximum: "1.52.0"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -669,7 +669,7 @@ dspy:
       pip install git+https://github.com/stanfordnlp/dspy.git
   models:
     minimum: "2.5.6"
-    maximum: "2.5.6"
+    maximum: "2.5.12"
     python:
       ">= 2.5.6": "3.9"
     requirements:
@@ -782,7 +782,7 @@ llama_index:
   models:
     # New event/span framework is fully implemented in 0.10.44
     minimum: "0.10.44"
-    maximum: "0.11.17"
+    maximum: "0.11.18"
     python:
       "== dev": "3.9"
     requirements:
@@ -802,7 +802,7 @@ llama_index:
     run: pytest tests/llama_index --ignore tests/llama_index/test_llama_index_autolog.py --ignore tests/llama_index/test_llama_index_tracer.py
   autologging:
     minimum: "0.10.44"
-    maximum: "0.11.17"
+    maximum: "0.11.18"
     python:
       "== dev": "3.9"
     requirements:

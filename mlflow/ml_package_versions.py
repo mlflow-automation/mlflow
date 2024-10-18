@@ -22,11 +22,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.9.0",
-            "maximum": "2.4.1"
+            "maximum": "2.5.0"
         },
         "autologging": {
             "minimum": "1.9.0",
-            "maximum": "2.4.1"
+            "maximum": "2.5.0"
         }
     },
     "pytorch-lightning": {
@@ -256,11 +256,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.0.1",
-            "maximum": "1.51.2"
+            "maximum": "1.52.0"
         },
         "autologging": {
             "minimum": "1.17.0",
-            "maximum": "1.51.2"
+            "maximum": "1.52.0"
         }
     },
     "dspy": {
@@ -269,7 +269,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.5.6",
-            "maximum": "2.5.6"
+            "maximum": "2.5.12"
         }
     },
     "langchain": {
@@ -292,11 +292,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.10.44",
-            "maximum": "0.11.17"
+            "maximum": "0.11.18"
         },
         "autologging": {
             "minimum": "0.10.44",
-            "maximum": "0.11.17"
+            "maximum": "0.11.18"
         }
     },
     "autogen": {
