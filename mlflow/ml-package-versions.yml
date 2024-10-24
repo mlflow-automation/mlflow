@@ -40,7 +40,7 @@ pytorch:
 
   models:
     minimum: "1.9.0"
-    maximum: "2.4.1"
+    maximum: "2.5.0"
     requirements:
       ">= 0.0.0": ["torchvision", "scikit-learn"]
       ">= 1.8": ["transformers"]
@@ -52,7 +52,7 @@ pytorch:
 
   autologging:
     minimum: "1.9.0"
-    maximum: "2.4.1"
+    maximum: "2.5.0"
     requirements:
       ">= 0.0.0": ["tensorboard"]
     python:
@@ -153,7 +153,7 @@ xgboost:
 
   models:
     minimum: "1.4.2"
-    maximum: "2.1.1"
+    maximum: "2.1.2"
     requirements:
       ">= 0.0.0": ["scikit-learn"]
       "< 1.6": ["pandas<2", "numpy<2"]
@@ -164,7 +164,7 @@ xgboost:
 
   autologging:
     minimum: "1.4.2"
-    maximum: "2.1.1"
+    maximum: "2.1.2"
     requirements:
       ">= 0.0.0": ["scikit-learn", "matplotlib"]
       "< 1.6": ["pandas<2", "numpy<2"]
@@ -254,7 +254,7 @@ fastai:
 
   models:
     minimum: "2.4.1"
-    maximum: "2.7.17"
+    maximum: "2.7.18"
     requirements:
       # TODO: fastai depends on spacy, but spacy>=3.8.2 requires python>=3.9
       #  Once migrating fastai tests to python 3.9, we should remove spacy<3.8.2
@@ -267,7 +267,7 @@ fastai:
 
   autologging:
     minimum: "2.4.1"
-    maximum: "2.7.17"
+    maximum: "2.7.18"
     requirements:
       "> 0.0.0": ["spacy<3.8.2", "torch<1.13.0", "torchvision<0.14.0"]
     run: |
@@ -562,7 +562,7 @@ transformers:
       pip install git+https://github.com/huggingface/transformers
   models:
     minimum: "4.25.1"
-    maximum: "4.45.2"
+    maximum: "4.46.0"
     python:
       "== dev": "3.9"
     unsupported: [
@@ -609,7 +609,7 @@ transformers:
       pytest tests/transformers/test_transformers_model_export.py -k "test_transformers_tf_model_save_without_conda_env_uses_default_env_with_expected_dependencies or test_transformers_pt_model_save_dependencies_without_accelerate"
   autologging:
     minimum: "4.25.1"
-    maximum: "4.45.2"
+    maximum: "4.46.0"
     python:
       "== dev": "3.9"
     unsupported: [
@@ -654,7 +654,7 @@ openai:
       pip install git+https://github.com/openai/openai-python
   models:
     minimum: "1.0.1"
-    maximum: "1.51.2"
+    maximum: "1.52.2"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -669,7 +669,7 @@ openai:
       pytest tests/openai tests/openai/test_openai_model_export.py
   autologging:
     minimum: "1.17.0"
-    maximum: "1.51.2"
+    maximum: "1.52.2"
     python:
       # OpenAI Swarm requires Python >=3.10
       ">= 1.33.0": "3.10"
@@ -697,7 +697,7 @@ dspy:
       pip install git+https://github.com/stanfordnlp/dspy.git
   models:
     minimum: "2.5.6"
-    maximum: "2.5.6"
+    maximum: "2.5.16"
     python:
       ">= 2.5.6": "3.9"
     requirements:
@@ -717,7 +717,7 @@ langchain:
   models:
     # Where the large package update was made (langchain-core, community, ...)
     minimum: "0.0.354"
-    maximum: "0.3.3"
+    maximum: "0.3.4"
     python:
       "== dev": "3.9"
     requirements:
@@ -762,7 +762,7 @@ langchain:
       fi
   autologging:
     minimum: "0.1.0"
-    maximum: "0.3.3"
+    maximum: "0.3.4"
     python:
       "== dev": "3.9"
     requirements:
@@ -810,7 +810,7 @@ llama_index:
   models:
     # New event/span framework is fully implemented in 0.10.44
     minimum: "0.10.44"
-    maximum: "0.11.17"
+    maximum: "0.11.19"
     python:
       "== dev": "3.9"
     requirements:
@@ -830,7 +830,7 @@ llama_index:
     run: pytest tests/llama_index --ignore tests/llama_index/test_llama_index_autolog.py --ignore tests/llama_index/test_llama_index_tracer.py
   autologging:
     minimum: "0.10.44"
-    maximum: "0.11.17"
+    maximum: "0.11.19"
     python:
       "== dev": "3.9"
     requirements:
@@ -853,7 +853,7 @@ autogen:
     #  pip install git+https://github.com/microsoft/autogen#subdirectory=python/packages/autogen-agentchat
   autologging:
     minimum: "0.2.36"
-    maximum: "0.2.36"
+    maximum: "0.2.37"
     python:
       "== dev": "3.10"
     requirements:
@@ -871,7 +871,7 @@ sentence_transformers:
       pip install git+https://github.com/UKPLab/sentence-transformers#egg=sentence-transformers
   models:
     minimum: "2.2.2"
-    maximum: "3.2.0"
+    maximum: "3.2.1"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -889,7 +889,7 @@ johnsnowlabs:
     pip_release: "johnsnowlabs"
   models:
     minimum: "4.4.6"
-    maximum: "5.4.5"
+    maximum: "5.5.0"
     requirements:
       ">= 0.0.0": ["pandas<=1.5.3"]
       "< 5.2.8": ["pyspark<3.4"]
