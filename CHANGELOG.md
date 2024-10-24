@@ -1,5 +1,51 @@
 # CHANGELOG
 
+## 2.17.1 (2024-10-24)
+
+MLflow 2.17.1 includes several major features and improvements
+
+Features:
+
+- [Tracking] OpenAI Swarm tracing support (#13497, @B-Step62)
+- [Scoring] Add model_config param for pyfunc.spark_udf (#13517, @WeichenXu123)
+- [Tracking] Adding connections to UC as a dependency (#13491, @sunishsheth2009)
+- [Tracking] Add UC_Connection to Resources (#13481, @sunishsheth2009)
+- [] Add Genie Spaces to Resources (#13441, @aravind-segu)
+- [Scoring] Make spark_udf support Databricks Serverless, Databricks connect, and prebuilt python environment (#13276, @WeichenXu123)
+- [UI] Update trace UI bundles (#13357, @daniellok-db)
+- [Tracking] Make DSPy wrapper compatible with single string output (#13345, @chenmoneygithub)
+- [Tracking] Adding resources to be passed in via langchain log_model (#13315, @sunishsheth2009)
+- [UI] Allow visualizing and comparing nested params (#13012, @jescalada)
+- [Tracking] LlamaIndex workflow logging (#13277, @B-Step62)
+- [UI] Add Artifact support for Compare Run page (#13145, @jescalada)
+- [] Standardize retriever span outputs to a list of MLflow `Document`s (#13242, @daniellok-db)
+- [Models] Add dspy flavor to MLflow (#13131, @chenmoneygithub)
+- [Tracking] [MLflow] Support multiple retrievers schema via set_retriever_schema (#13246, @sunishsheth2009)
+
+Bug fixes:
+
+- [Models] Fix code_path handling for LlamaIndex flavor (#13486, @B-Step62)
+- [Models] Fix signature inference for subclass and Optional dataclasses (#13440, @bbqiu)
+- [Models] Support new Transformers task for llm/v1/embedding (#13468, @B-Step62)
+- [Tracking] Update to throw a warning instead of error when set_retriever_schema is called twice (#13422, @sunishsheth2009)
+- [] Support dependency extraction from RunnableCallables (#13423, @aravind-segu)
+- [Tracking] Fix presigned_url_artifact request (#13366, @WeichenXu123)
+- [Tracking] Fix mlflow DSPy tests (#13369, @chenmoneygithub)
+- [Tracking] Mark `role` and `index` as required for chat schema (#13279, @chenmoneygithub)
+- [Models] Update Databricks dependency extraction to handle the partner package. (#13266, @B-Step62)
+
+Documentation updates:
+
+- [Docs] Fixed typo in docs: endpoing -> endpoint (#13478, @JAMNESIA)
+- [Docs] Improve CLI docs - attention about setting MLFLOW_TRACKING_URI (#13465, @BartoszLitwiniuk)
+- [] Update docs and infer_signature (#13407, @serena-ruan)
+- [Docs] Add contribution guide for tracing (#13333, @B-Step62)
+- [Tracking] Add run_id parameter to the search_trace API (#13251, @B-Step62)
+
+Small bug fixes and documentation updates:
+
+#13533, #13408, #13295, @serena-ruan; #13386, #13532, #13385, #13384, #13383, #13507, #13523, #13518, #13510, #13501, #13506, #13492, #13493, #13487, #13490, #13488, #13449, #13471, #13417, #13445, #13430, #13448, #13446, #13443, #13429, #13418, #13412, #13382, #13402, #13381, #13372, #13364, #13356, #13309, #13313, #13334, #13331, #13273, #13322, #13319, #13308, #13302, #13268, #13298, #13293, #13296, @harupy; #13505, #13504, @sunishsheth2009; #13508, @KamilStachera; #13469, #13444, #13450, #13360, #13416, #13415, #13336, #13305, #13271, #13243, @B-Step62; #13397, @kriscon-db; #13410, #13358, #13233, @nojaf; #13414, @lmoros-DB; #13399, @Abubakar17; #13390, @KekmaTime; #13349, #13351, #13350, #13342, #13341, @WeichenXu123; #13203, @shichengzhou-db; #13335, #13285, #13292, #13282, #13283, #13267, @daniellok-db; #13291, @michael-berk; #12511, @jgiannuzzi; #13265, @Ahar28; #13260, @BenWilson2
+
 ## 2.17.0 (2024-09-26)
 
 We are excited to announce the release of MLflow 2.17.0! This release includes several enhancements to extend the
