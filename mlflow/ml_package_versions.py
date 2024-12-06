@@ -244,11 +244,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.0.1",
-            "maximum": "1.56.0"
+            "maximum": "1.56.2"
         },
         "autologging": {
             "minimum": "1.17.0",
-            "maximum": "1.56.0"
+            "maximum": "1.56.2"
         }
     },
     "dspy": {
@@ -326,7 +326,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "0.80.0",
-            "maximum": "0.83.0"
+            "maximum": "0.85.0"
         }
     },
     "sentence_transformers": {
@@ -362,7 +362,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.52.9",
-            "maximum": "1.53.1"
+            "maximum": "1.53.7"
         }
     }
 }

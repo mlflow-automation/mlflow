@@ -590,7 +590,7 @@ openai:
       pip install git+https://github.com/openai/openai-python
   models:
     minimum: "1.0.1"
-    maximum: "1.56.0"
+    maximum: "1.56.2"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -609,7 +609,7 @@ openai:
     test_every_n_versions: 10
   autologging:
     minimum: "1.17.0"
-    maximum: "1.56.0"
+    maximum: "1.56.2"
     python:
       # OpenAI Swarm requires Python >=3.10
       ">= 1.33.0": "3.10"
@@ -838,7 +838,7 @@ crewai:
       pip install git+https://github.com/crewAIInc/crewAI
   autologging:
     minimum: "0.80.0"
-    maximum: "0.83.0"
+    maximum: "0.85.0"
     python:
       ">= 0.80.0": "3.10"
     requirements:
@@ -904,7 +904,7 @@ litellm:
       pip install git+https://github.com/BerriAI/litellm.git
   autologging:
     minimum: "1.52.9"
-    maximum: "1.53.1"
+    maximum: "1.53.7"
     requirements:
       ">= 0.0.0": [
           "openai",
