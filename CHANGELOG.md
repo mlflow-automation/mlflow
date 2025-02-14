@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2.20.3 (2025-02-14)
+
+MLflow 2.20.3 includes several major features and improvements
+
+Features:
+
+- [Tracking] Support new Google GenAI SDK (#14576, @TomeHirata)
+
+Small bug fixes and documentation updates:
+
+#14535, @njbrake; #14601, #14600, #14597, #14570, #14569, @harupy; #14541, #14553, @daniellok-db; #14594, @TomeHirata; #14580, @B-Step62; #14574, #14572, @serena-ruan; #14567, @bbqiu
+
 ## 2.20.2 (2025-02-13)
 
 MLflow 2.20.2 is a patch release includes several bug fixes and features
