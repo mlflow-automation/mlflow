@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2.20.3 (2025-02-19)
+
+MLflow 2.20.3 includes several major features and improvements
+
+Features:
+
+- [Models] Introduce User Auth Policy for Pyfunc Models (#14538, @aravind-segu)
+- [Tracking] Support new Google GenAI SDK (#14576, @TomeHirata)
+
+Bug fixes:
+
+- [Tracking] Simplify LangChain tracing patching (#14598, @B-Step62)
+
+Documentation updates:
+
+- [] Replace Databricks Community Edition with Lighthouse [1] (#14642, @TomeHirata)
+
+Small bug fixes and documentation updates:
+
+#14650, #14648, #14647, #14646, #14639, #14637, #14635, #14634, #14633, #14630, #14628, #14624, #14623, #14621, #14619, #14615, #14613, #14603, #14601, #14600, #14597, #14570, #14569, @harupy; #14629, #14640, #14636, #14593, #14574, #14572, @serena-ruan; #14568, @BenWilson2; #14632, #14616, #14594, @TomeHirata; #14535, @njbrake; #14541, #14553, @daniellok-db; #14580, @B-Step62; #14567, @bbqiu
+
 ## 2.20.2 (2025-02-13)
 
 MLflow 2.20.2 is a patch release includes several bug fixes and features
