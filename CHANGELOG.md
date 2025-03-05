@@ -1,5 +1,33 @@
 # CHANGELOG
 
+## 2.20.4 (2025-03-05)
+
+MLflow 2.20.4 includes several major features and improvements
+
+Breaking changes:
+
+- [] Only emit recipes deprecation warning when recipes is used (#14727, @harupy)
+
+Features:
+
+- [Tracking] Support async API tracing for OpenAI (#14792, @B-Step62)
+
+Bug fixes:
+
+- [] Fix `mlflow.doctor` to fall back to `mlflow-skinny` when `mlflow` is not found (#14782, @harupy)
+- [Models] Handle LangGraph breaking change (#14794, @B-Step62)
+- [Tracking] Fix DSPy tracing in serving (#14743, @B-Step62)
+- [Tracking] Support Anthropic thinking content block (#14733, @B-Step62)
+
+Documentation updates:
+
+- [Docs] Add guide for tracing deepseek (#14826, @B-Step62)
+- [] Update llama Jupyter notebook source (#14754, @emmanuel-ferdman)
+
+Small bug fixes and documentation updates:
+
+#14866, #14821, #14817, #14815, #14765, #14803, #14773, #14783, #14784, #14776, #14759, @daniellok-db; #14852, #14788, @Gumichocopengin8; #14857, #14824, #14830, #14767, #14772, #14770, #14766, @serena-ruan; #14850, #14800, #14799, @TomeHirata; #14853, #14849, #14813, #14822, #14818, #14802, #14804, #14814, #14779, #14796, #14735, #14731, #14728, #14734, #14727, @harupy; #14833, #14795, #14748, #14744, #14666, @B-Step62; #14756, @jiewpeng
+
 ## 2.20.3 (2025-02-26)
 
 MLflow 2.20.3 is a patch release includes several major features and improvements
