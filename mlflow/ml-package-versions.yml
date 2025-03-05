@@ -656,14 +656,14 @@ dspy:
       pip install git+https://github.com/stanfordnlp/dspy.git
   models:
     minimum: "2.5.17"
-    maximum: "2.6.8"
+    maximum: "2.6.10"
     requirements:
       ">= 0.0.0": ["openai"]
     run: |
       pytest tests/dspy --ignore tests/dspy/test_dspy_autolog.py
   autologging:
     minimum: "2.5.17"
-    maximum: "2.6.8"
+    maximum: "2.6.10"
     requirements:
       ">= 0.0.0": ["openai"]
     run: |
@@ -843,7 +843,7 @@ autogen:
     #  pip install git+https://github.com/microsoft/autogen#subdirectory=python/packages/autogen-agentchat
   autologging:
     minimum: "0.2.36"
-    maximum: "0.2.40"
+    maximum: "0.4.8"
     python:
       "== dev": "3.10"
     requirements:
@@ -980,7 +980,7 @@ litellm:
       pip install git+https://github.com/BerriAI/litellm.git
   autologging:
     minimum: "1.52.9"
-    maximum: "1.58.4"
+    maximum: "1.62.1"
     requirements:
       ">= 0.0.0": [
           "openai",
@@ -1008,5 +1008,5 @@ bedrock:
   autologging:
     # BedrockRuntime client is added in boto3 1.33
     minimum: "1.33.0"
-    maximum: "1.37.4"
+    maximum: "1.37.5"
     run: pytest tests/bedrock

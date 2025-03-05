@@ -257,11 +257,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.5.17",
-            "maximum": "2.6.8"
+            "maximum": "2.6.10"
         },
         "autologging": {
             "minimum": "2.5.17",
-            "maximum": "2.6.8"
+            "maximum": "2.6.10"
         }
     },
     "langchain": {
@@ -310,7 +310,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "0.2.36",
-            "maximum": "0.2.40"
+            "maximum": "0.4.8"
         }
     },
     "gemini": {
@@ -385,7 +385,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.52.9",
-            "maximum": "1.58.4"
+            "maximum": "1.62.1"
         }
     },
     "groq": {
@@ -404,7 +404,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.33.0",
-            "maximum": "1.37.4"
+            "maximum": "1.37.5"
         }
     }
 }
