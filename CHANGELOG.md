@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2.21.1 (2025-03-21)
+
+MLflow 2.21.1 includes several major features and improvements
+
+Features:
+
+- [Docker / Java / Models] Add --install-java option to sagemaker build-and-push-container (#14868, @rgangopadhya)
+- [] Gemini embeddings to Mlflow AI Gateway + Unit test (#15017, @joelrobin18)
+
+Bug fixes:
+
+- [] fix: typo in `OTEL_EXPORTER_OTLP_PROTOCOL` env var (#15008, @gabrielfu)
+
+Small bug fixes and documentation updates:
+
+#15010, #15053, #15019, @B-Step62; #15048, @serena-ruan; #14918, #15025, #15014, #15005, #14965, #14858, @Gumichocopengin8; #15039, #15040, #14995, #15009, #15007, @TomeHirata; #14982, @harupy; #14920, #14919, @jaceklaskowski
+
 ## 2.21.0 (2025-03-14)
 
 We are excited to announce the release of MLflow 2.21.0! This release includes a number of significant features, enhancements, and bug fixes.
