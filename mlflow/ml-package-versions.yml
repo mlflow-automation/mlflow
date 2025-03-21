@@ -66,7 +66,7 @@ pytorch-lightning:
 
   autologging:
     minimum: "1.9.0"
-    maximum: "2.5.0.post0"
+    maximum: "2.5.1"
     requirements:
       ">= 0.0.0": ["scikit-learn", "torchvision", "protobuf<4.0.0", "tensorboard", "greenlet<3"]
     run: |
@@ -142,7 +142,7 @@ xgboost:
 
   models:
     minimum: "1.4.2"
-    maximum: "2.1.4"
+    maximum: "3.0.0"
     requirements:
       ">= 0.0.0": ["scikit-learn"]
       "< 1.6": ["pandas<2", "numpy<2"]
@@ -153,7 +153,7 @@ xgboost:
 
   autologging:
     minimum: "1.4.2"
-    maximum: "2.1.4"
+    maximum: "3.0.0"
     requirements:
       ">= 0.0.0": ["scikit-learn", "matplotlib"]
       "< 1.6": ["pandas<2", "numpy<2"]
@@ -208,7 +208,7 @@ fastai:
 
   models:
     minimum: "2.4.1"
-    maximum: "2.7.19"
+    maximum: "2.8.0"
     requirements:
       # TODO: fastai depends on spacy, but spacy>=3.8.2 requires python>=3.9
       #  Once migrating fastai tests to python 3.9, we should remove spacy<3.8.2
@@ -221,7 +221,7 @@ fastai:
 
   autologging:
     minimum: "2.4.1"
-    maximum: "2.7.19"
+    maximum: "2.8.0"
     requirements:
       "> 0.0.0": ["spacy<3.8.2", "torch<1.13.0", "torchvision<0.14.0"]
     run: |
@@ -611,7 +611,7 @@ openai:
       pip install git+https://github.com/openai/openai-python
   models:
     minimum: "1.0.1"
-    maximum: "1.66.3"
+    maximum: "1.67.0"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -630,7 +630,7 @@ openai:
     test_every_n_versions: 10
   autologging:
     minimum: "1.17.0"
-    maximum: "1.66.3"
+    maximum: "1.67.0"
     python:
       # OpenAI Swarm requires Python >=3.10
       ">= 1.33.0": "3.10"
@@ -657,14 +657,14 @@ dspy:
       pip install git+https://github.com/stanfordnlp/dspy.git
   models:
     minimum: "2.5.17"
-    maximum: "2.6.11"
+    maximum: "2.6.13"
     requirements:
       ">= 0.0.0": ["openai"]
     run: |
       pytest tests/dspy --ignore tests/dspy/test_dspy_autolog.py
   autologging:
     minimum: "2.5.17"
-    maximum: "2.6.11"
+    maximum: "2.6.13"
     requirements:
       ">= 0.0.0": ["openai"]
     run: |
@@ -678,7 +678,7 @@ langchain:
   models:
     # Where the large package update was made (langchain-core, community, ...)
     minimum: "0.0.354"
-    maximum: "0.3.20"
+    maximum: "0.3.21"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -723,7 +723,7 @@ langchain:
       fi
   autologging:
     minimum: "0.1.0"
-    maximum: "0.3.20"
+    maximum: "0.3.21"
     requirements:
       ">= 0.0.0": [
           "pyspark",
@@ -772,7 +772,7 @@ langgraph:
 
   models:
     minimum: "0.2.0"
-    maximum: "0.3.8"
+    maximum: "0.3.18"
     requirements:
       ">= 0.0.0": [
           "langchain",
@@ -787,7 +787,7 @@ langgraph:
 
   autologging:
     minimum: "0.2.0"
-    maximum: "0.3.8"
+    maximum: "0.3.18"
     requirements:
       ">= 0.0.0": [
           "langchain",
@@ -809,7 +809,7 @@ llama_index:
   models:
     # New event/span framework is fully implemented in 0.10.44
     minimum: "0.10.44"
-    maximum: "0.12.23"
+    maximum: "0.12.25"
     requirements:
       ">= 0.0.0": [
           "openai",
@@ -825,7 +825,7 @@ llama_index:
     run: pytest tests/llama_index --ignore tests/llama_index/test_llama_index_autolog.py --ignore tests/llama_index/test_llama_index_tracer.py
   autologging:
     minimum: "0.10.44"
-    maximum: "0.12.23"
+    maximum: "0.12.25"
     requirements:
       ">= 0.0.0": [
           "openai",
@@ -844,7 +844,7 @@ autogen:
     #  pip install git+https://github.com/microsoft/autogen#subdirectory=python/packages/autogen-agentchat
   autologging:
     minimum: "0.2.36"
-    maximum: "0.4.9"
+    maximum: "0.4.9.2"
     python:
       "== dev": "3.10"
     requirements:
@@ -863,7 +863,7 @@ gemini:
       pip install git+https://github.com/googleapis/python-genai
   autologging:
     minimum: "1.0.0"
-    maximum: "1.5.0"
+    maximum: "1.7.0"
     requirements:
     run: |
       # Install legacy gemini SDK to ensure the integration works for the legacy SDK 
@@ -893,7 +893,7 @@ crewai:
       pip install git+https://github.com/crewAIInc/crewAI
   autologging:
     minimum: "0.80.0"
-    maximum: "0.105.0"
+    maximum: "0.108.0"
     python:
       ">= 0.80.0": "3.10"
     requirements:
@@ -912,7 +912,7 @@ mistral:
       rm -rf $TMP_DIR
   autologging:
     minimum: "1.0.0"
-    maximum: "1.5.1"
+    maximum: "1.5.2"
     requirements:
     run: pytest tests/mistral
 
@@ -944,7 +944,7 @@ johnsnowlabs:
     pip_release: "johnsnowlabs"
   models:
     minimum: "4.4.6"
-    maximum: "5.5.4"
+    maximum: "5.5.5"
     requirements:
       ">= 0.0.0": ["pandas<=1.5.3"]
       "< 5.2.8": ["pyspark<3.4"]
@@ -981,7 +981,7 @@ litellm:
       pip install git+https://github.com/BerriAI/litellm.git
   autologging:
     minimum: "1.52.9"
-    maximum: "1.63.7"
+    maximum: "1.63.12"
     requirements:
       ">= 0.0.0": [
           "openai",
@@ -998,7 +998,7 @@ groq:
       pip install git+https://github.com/groq/groq-python
   autologging:
     minimum: "0.13.0"
-    maximum: "0.19.0"
+    maximum: "0.20.0"
     requirements:
     run: pytest tests/groq
 
@@ -1009,5 +1009,5 @@ bedrock:
   autologging:
     # BedrockRuntime client is added in boto3 1.33
     minimum: "1.33.0"
-    maximum: "1.37.11"
+    maximum: "1.37.16"
     run: pytest tests/bedrock

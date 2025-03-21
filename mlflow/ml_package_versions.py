@@ -36,7 +36,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.9.0",
-            "maximum": "2.5.0.post0"
+            "maximum": "2.5.1"
         }
     },
     "keras": {
@@ -71,11 +71,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.4.2",
-            "maximum": "2.1.4"
+            "maximum": "3.0.0"
         },
         "autologging": {
             "minimum": "1.4.2",
-            "maximum": "2.1.4"
+            "maximum": "3.0.0"
         }
     },
     "lightgbm": {
@@ -106,11 +106,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.4.1",
-            "maximum": "2.7.19"
+            "maximum": "2.8.0"
         },
         "autologging": {
             "minimum": "2.4.1",
-            "maximum": "2.7.19"
+            "maximum": "2.8.0"
         }
     },
     "onnx": {
@@ -244,11 +244,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "1.0.1",
-            "maximum": "1.66.3"
+            "maximum": "1.67.0"
         },
         "autologging": {
             "minimum": "1.17.0",
-            "maximum": "1.66.3"
+            "maximum": "1.67.0"
         }
     },
     "dspy": {
@@ -257,11 +257,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "2.5.17",
-            "maximum": "2.6.11"
+            "maximum": "2.6.13"
         },
         "autologging": {
             "minimum": "2.5.17",
-            "maximum": "2.6.11"
+            "maximum": "2.6.13"
         }
     },
     "langchain": {
@@ -270,11 +270,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.0.354",
-            "maximum": "0.3.20"
+            "maximum": "0.3.21"
         },
         "autologging": {
             "minimum": "0.1.0",
-            "maximum": "0.3.20"
+            "maximum": "0.3.21"
         }
     },
     "langgraph": {
@@ -283,11 +283,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.2.0",
-            "maximum": "0.3.8"
+            "maximum": "0.3.18"
         },
         "autologging": {
             "minimum": "0.2.0",
-            "maximum": "0.3.8"
+            "maximum": "0.3.18"
         }
     },
     "llama_index": {
@@ -297,11 +297,11 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "0.10.44",
-            "maximum": "0.12.23"
+            "maximum": "0.12.25"
         },
         "autologging": {
             "minimum": "0.10.44",
-            "maximum": "0.12.23"
+            "maximum": "0.12.25"
         }
     },
     "autogen": {
@@ -310,7 +310,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "0.2.36",
-            "maximum": "0.4.9"
+            "maximum": "0.4.9.2"
         }
     },
     "gemini": {
@@ -320,7 +320,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.0.0",
-            "maximum": "1.5.0"
+            "maximum": "1.7.0"
         }
     },
     "anthropic": {
@@ -339,7 +339,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "0.80.0",
-            "maximum": "0.105.0"
+            "maximum": "0.108.0"
         }
     },
     "mistral": {
@@ -349,7 +349,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.0.0",
-            "maximum": "1.5.1"
+            "maximum": "1.5.2"
         }
     },
     "sentence_transformers": {
@@ -367,7 +367,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "models": {
             "minimum": "4.4.6",
-            "maximum": "5.5.4"
+            "maximum": "5.5.5"
         }
     },
     "promptflow": {
@@ -385,7 +385,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.52.9",
-            "maximum": "1.63.7"
+            "maximum": "1.63.12"
         }
     },
     "groq": {
@@ -394,7 +394,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "0.13.0",
-            "maximum": "0.19.0"
+            "maximum": "0.20.0"
         }
     },
     "bedrock": {
@@ -404,7 +404,7 @@ _ML_PACKAGE_VERSIONS = {
         },
         "autologging": {
             "minimum": "1.33.0",
-            "maximum": "1.37.11"
+            "maximum": "1.37.16"
         }
     }
 }
