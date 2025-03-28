@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 2.21.3 (2025-03-28)
+
+MLflow 2.21.3 includes several major features and improvements
+
+Small bug fixes and documentation updates:
+
+#15157, #15137, @TomeHirata; #15140, @harupy
+
 ## 2.21.2 (2025-03-26)
 
 MLflow 2.21.2 is a patch release that introduces minor features and bug fixes.
